@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.header-main-cont{
+    height: 10rem;
+    width: 40rem;
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 5rem;
+    border-radius: 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: sticky;
+    
+}
+
+.add-btn{
+    margin: 5rem;
+}
+
+.add-clear{
+    margin: 5rem;
+}
+
+.add-delete{
+    height: 5rem;
+    margin: 5rem;
+}
+
+#add{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: goldenrod;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+#clear{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#delete{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: rgb(red, green, blue);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+

@@ -1,0 +1,24 @@
+.main-cont{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-part-cont{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid black;
+}
+
+.first-child{
+    height: 3rem;
+    width: 10rem;
+    border-bottom: 2px solid black;
+}
+
+.second-child{
+    height: 3rem;
+    width: 10rem;
+    border-bottom: 2px solid black;
+}
